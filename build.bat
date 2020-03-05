@@ -29,5 +29,5 @@ jom
 nmake
 nmake install
 
-cd C:\Qt
+cd /d C:\Qt
 7z a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on -sse Qt-5.6.3-Static-XP.7z 5.6.3-Static-XP
