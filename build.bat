@@ -15,7 +15,7 @@ REM ",5.01", which is then passed as the extra suffix to the linker's subsystem
 REM parameter.
 
 REM harfbuzz is disabled because of QTBUG-38913
-configure.bat -prefix C:\Qt\5.6.3-Static-XP\ -opensource -confirm-license^
+call configure.bat -prefix C:\Qt\5.6.3-Static-XP\ -opensource -confirm-license^
  -release -static -static-runtime -nomake examples -nomake tests -target xp^
  -no-harfbuzz -no-sse2 -no-sse3 -no-ssse3 -no-sse4.1 -no-sse4.2 -no-avx -no-avx2^
  -platform win32-msvc2017 -no-angle -no-opengl
