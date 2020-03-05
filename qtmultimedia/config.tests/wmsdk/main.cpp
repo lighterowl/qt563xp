@@ -1,3 +1,4 @@
+#error "unsupported on WinXP"
 /****************************************************************************
 **
 ** Copyright (C) 2015 The Qt Company Ltd.
